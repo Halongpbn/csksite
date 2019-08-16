@@ -1,0 +1,113 @@
+body {
+	font-family:'Poppins';
+	margin:0;
+}
+
+#home p {
+	text-align: center;
+	padding-top:30vh;
+	margin-top:0vh;
+	font-size: 100px;
+	color:white;
+}
+#buttons {
+	text-align:center;
+}
+#buttons button {
+	margin: 25px 25px 0px 25px;
+	font-family:'Poppins';
+}
+#home {
+	height:100vh;
+	width:100%;
+	background-image: url("https://images.unsplash.com/photo-1565602133367-0844a6d2d5b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+}
+#about {
+	text-align:center;
+}
+#about p {
+	line-height: 40px;
+	font-size:26px;
+	text-align:center;
+	margin: 0% 20% 0% 20%;
+}
+h1 {
+	text-align:center;
+	margin-top:70px;
+	padding:50px;
+	font-size:56px;
+
+}
+#row {
+	display:flex;
+	padding: 0 4px;
+	margin-bottom:20px;
+}
+.column {
+	flex:23%;
+	max-width:25%;
+	padding: 0 0.5%;
+}
+.column img {
+	width:100%;
+	margin-top:2.5%;
+}
+#grid {
+	margin-top:50px;
+}
+.navi {
+	position:absolute;
+
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	margin:0;
+
+}
+li {
+	margin: 25px 25px 0px 25px;
+	color: white;
+}
+li a{
+	color:white;
+	text-decoration:none;
+}
+li a:visited {
+	color:white;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: none;
+	color:white;
+}
+a:active {
+	color:white;
+	text-decoration:none;
+}
+img:hover {
+	opacity:0.5;
+}
+#photo-slide {
+	margin-top: 50px;
+}
+#photo-slide img {
+	max-height:500px;
+}
+#cards {
+	display:flex;
+	justify-content: space-around;
+
+}
+.card-img-top {
+	max-height: 250px;
+}
+.btn-primary {
+	background-color:#ffc1b0 !important;
+	border-color: #f2d0ea !important;
+	color:black !important;
+}
